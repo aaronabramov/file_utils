@@ -1,3 +1,7 @@
+# Prefix all filenames with first argument
+# Example:
+#   ./prefix.sh my_prefix_ ./*.yaml
+
 prefix=$1
 shift
 files="$@"
